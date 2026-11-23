@@ -1,0 +1,14 @@
+# model weights live on the Hugging Face Hub, not in git
+*.safetensors
+*.bin
+*.pt
+
+# secrets
+.env
+
+# python / jupyter
+__pycache__/
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
